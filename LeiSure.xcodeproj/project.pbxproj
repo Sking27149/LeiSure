@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A645791D0E4E3F002AB45F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A645781D0E4E3F002AB45F /* main.m */; };
+		79A6457C1D0E4E3F002AB45F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6457B1D0E4E3F002AB45F /* AppDelegate.m */; };
+		79A6457F1D0E4E3F002AB45F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6457E1D0E4E3F002AB45F /* ViewController.m */; };
+		79A645821D0E4E3F002AB45F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A645801D0E4E3F002AB45F /* Main.storyboard */; };
+		79A645841D0E4E3F002AB45F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A645831D0E4E3F002AB45F /* Assets.xcassets */; };
+		79A645871D0E4E3F002AB45F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A645851D0E4E3F002AB45F /* LaunchScreen.storyboard */; };
+		79A645921D0E4E3F002AB45F /* LeiSureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A645911D0E4E3F002AB45F /* LeiSureTests.m */; };
+		79A6459D1D0E4E3F002AB45F /* LeiSureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A6459C1D0E4E3F002AB45F /* LeiSureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A6458E1D0E4E3F002AB45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A6456C1D0E4E3F002AB45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A645731D0E4E3F002AB45F;
+			remoteInfo = LeiSure;
+		};
+		79A645991D0E4E3F002AB45F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A6456C1D0E4E3F002AB45F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A645731D0E4E3F002AB45F;
+			remoteInfo = LeiSure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A645741D0E4E3F002AB45F /* LeiSure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeiSure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A645781D0E4E3F002AB45F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A6457A1D0E4E3F002AB45F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79A6457B1D0E4E3F002AB45F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79A6457D1D0E4E3F002AB45F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79A6457E1D0E4E3F002AB45F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79A645811D0E4E3F002AB45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A645831D0E4E3F002AB45F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A645861D0E4E3F002AB45F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A645881D0E4E3F002AB45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A6458D1D0E4E3F002AB45F /* LeiSureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiSureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A645911D0E4E3F002AB45F /* LeiSureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeiSureTests.m; sourceTree = "<group>"; };
+		79A645931D0E4E3F002AB45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A645981D0E4E3F002AB45F /* LeiSureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeiSureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A6459C1D0E4E3F002AB45F /* LeiSureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeiSureUITests.m; sourceTree = "<group>"; };
+		79A6459E1D0E4E3F002AB45F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A645711D0E4E3F002AB45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A6458A1D0E4E3F002AB45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A645951D0E4E3F002AB45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A6456B1D0E4E3F002AB45F = {
+			isa = PBXGroup;
+			children = (
+				79A645761D0E4E3F002AB45F /* LeiSure */,
+				79A645901D0E4E3F002AB45F /* LeiSureTests */,
+				79A6459B1D0E4E3F002AB45F /* LeiSureUITests */,
+				79A645751D0E4E3F002AB45F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A645751D0E4E3F002AB45F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A645741D0E4E3F002AB45F /* LeiSure.app */,
+				79A6458D1D0E4E3F002AB45F /* LeiSureTests.xctest */,
+				79A645981D0E4E3F002AB45F /* LeiSureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A645761D0E4E3F002AB45F /* LeiSure */ = {
+			isa = PBXGroup;
+			children = (
+				79A6457A1D0E4E3F002AB45F /* AppDelegate.h */,
+				79A6457B1D0E4E3F002AB45F /* AppDelegate.m */,
+				79A6457D1D0E4E3F002AB45F /* ViewController.h */,
+				79A6457E1D0E4E3F002AB45F /* ViewController.m */,
+				79A645801D0E4E3F002AB45F /* Main.storyboard */,
+				79A645831D0E4E3F002AB45F /* Assets.xcassets */,
+				79A645851D0E4E3F002AB45F /* LaunchScreen.storyboard */,
+				79A645881D0E4E3F002AB45F /* Info.plist */,
+				79A645771D0E4E3F002AB45F /* Supporting Files */,
+			);
+			path = LeiSure;
+			sourceTree = "<group>";
+		};
+		79A645771D0E4E3F002AB45F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A645781D0E4E3F002AB45F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79A645901D0E4E3F002AB45F /* LeiSureTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A645911D0E4E3F002AB45F /* LeiSureTests.m */,
+				79A645931D0E4E3F002AB45F /* Info.plist */,
+			);
+			path = LeiSureTests;
+			sourceTree = "<group>";
+		};
+		79A6459B1D0E4E3F002AB45F /* LeiSureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79A6459C1D0E4E3F002AB45F /* LeiSureUITests.m */,
+				79A6459E1D0E4E3F002AB45F /* Info.plist */,
+			);
+			path = LeiSureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A645731D0E4E3F002AB45F /* LeiSure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A645A11D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSure" */;
+			buildPhases = (
+				79A645701D0E4E3F002AB45F /* Sources */,
+				79A645711D0E4E3F002AB45F /* Frameworks */,
+				79A645721D0E4E3F002AB45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeiSure;
+			productName = LeiSure;
+			productReference = 79A645741D0E4E3F002AB45F /* LeiSure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A6458C1D0E4E3F002AB45F /* LeiSureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A645A41D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSureTests" */;
+			buildPhases = (
+				79A645891D0E4E3F002AB45F /* Sources */,
+				79A6458A1D0E4E3F002AB45F /* Frameworks */,
+				79A6458B1D0E4E3F002AB45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A6458F1D0E4E3F002AB45F /* PBXTargetDependency */,
+			);
+			name = LeiSureTests;
+			productName = LeiSureTests;
+			productReference = 79A6458D1D0E4E3F002AB45F /* LeiSureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A645971D0E4E3F002AB45F /* LeiSureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A645A71D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSureUITests" */;
+			buildPhases = (
+				79A645941D0E4E3F002AB45F /* Sources */,
+				79A645951D0E4E3F002AB45F /* Frameworks */,
+				79A645961D0E4E3F002AB45F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A6459A1D0E4E3F002AB45F /* PBXTargetDependency */,
+			);
+			name = LeiSureUITests;
+			productName = LeiSureUITests;
+			productReference = 79A645981D0E4E3F002AB45F /* LeiSureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A6456C1D0E4E3F002AB45F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sking;
+				TargetAttributes = {
+					79A645731D0E4E3F002AB45F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					79A6458C1D0E4E3F002AB45F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 79A645731D0E4E3F002AB45F;
+					};
+					79A645971D0E4E3F002AB45F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 79A645731D0E4E3F002AB45F;
+					};
+				};
+			};
+			buildConfigurationList = 79A6456F1D0E4E3F002AB45F /* Build configuration list for PBXProject "LeiSure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A6456B1D0E4E3F002AB45F;
+			productRefGroup = 79A645751D0E4E3F002AB45F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A645731D0E4E3F002AB45F /* LeiSure */,
+				79A6458C1D0E4E3F002AB45F /* LeiSureTests */,
+				79A645971D0E4E3F002AB45F /* LeiSureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A645721D0E4E3F002AB45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A645871D0E4E3F002AB45F /* LaunchScreen.storyboard in Resources */,
+				79A645841D0E4E3F002AB45F /* Assets.xcassets in Resources */,
+				79A645821D0E4E3F002AB45F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A6458B1D0E4E3F002AB45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A645961D0E4E3F002AB45F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A645701D0E4E3F002AB45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6457F1D0E4E3F002AB45F /* ViewController.m in Sources */,
+				79A6457C1D0E4E3F002AB45F /* AppDelegate.m in Sources */,
+				79A645791D0E4E3F002AB45F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A645891D0E4E3F002AB45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A645921D0E4E3F002AB45F /* LeiSureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A645941D0E4E3F002AB45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A6459D1D0E4E3F002AB45F /* LeiSureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A6458F1D0E4E3F002AB45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A645731D0E4E3F002AB45F /* LeiSure */;
+			targetProxy = 79A6458E1D0E4E3F002AB45F /* PBXContainerItemProxy */;
+		};
+		79A6459A1D0E4E3F002AB45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A645731D0E4E3F002AB45F /* LeiSure */;
+			targetProxy = 79A645991D0E4E3F002AB45F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A645801D0E4E3F002AB45F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A645811D0E4E3F002AB45F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A645851D0E4E3F002AB45F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A645861D0E4E3F002AB45F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A6459F1D0E4E3F002AB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79A645A01D0E4E3F002AB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A645A21D0E4E3F002AB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeiSure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79A645A31D0E4E3F002AB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeiSure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79A645A51D0E4E3F002AB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeiSureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeiSure.app/LeiSure";
+			};
+			name = Debug;
+		};
+		79A645A61D0E4E3F002AB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeiSureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeiSure.app/LeiSure";
+			};
+			name = Release;
+		};
+		79A645A81D0E4E3F002AB45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeiSureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeiSure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79A645A91D0E4E3F002AB45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeiSureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sking.LeiSureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeiSure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A6456F1D0E4E3F002AB45F /* Build configuration list for PBXProject "LeiSure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A6459F1D0E4E3F002AB45F /* Debug */,
+				79A645A01D0E4E3F002AB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A645A11D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A645A21D0E4E3F002AB45F /* Debug */,
+				79A645A31D0E4E3F002AB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79A645A41D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A645A51D0E4E3F002AB45F /* Debug */,
+				79A645A61D0E4E3F002AB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79A645A71D0E4E3F002AB45F /* Build configuration list for PBXNativeTarget "LeiSureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A645A81D0E4E3F002AB45F /* Debug */,
+				79A645A91D0E4E3F002AB45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A6456C1D0E4E3F002AB45F /* Project object */;
+}
