@@ -1,0 +1,22 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MJRefresh (3.1.6)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - FMDB (~> 2.6.2)
+  - MJRefresh (~> 3.1.0)
+  - SDWebImage (~> 3.7.6)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJRefresh: 5c69f11e8bde0664e15326d2e61f61e103c6545f
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 83df513f40f9ab06b1d92b0018602a26ab093083
+
+COCOAPODS: 1.0.0
